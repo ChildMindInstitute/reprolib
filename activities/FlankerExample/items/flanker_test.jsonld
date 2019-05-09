@@ -15,27 +15,27 @@
   "inputs": [
     {
       "@type": "schema:url",
-      "@id": "leftImage",
+      "schema:name": "leftImage",
       "schema:value": "https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/black/png/48/arrow-left.png"
     },
     {
       "@type": "schema:url",
-      "@id": "leftImageButton",
+      "schema:name": "leftImageButton",
       "schema:value": "https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/white/png/48/arrow-left.png"
     },
     {
       "@type": "schema:url",
-      "@id": "rightImage",
+      "schema:name": "rightImage",
       "schema:value": "https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/black/png/48/arrow-right.png"
     },
     {
       "@type": "schema:url",
-      "@id": "rightImageButton",
+      "schema:name": "rightImageButton",
       "schema:value": "https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/white/png/48/arrow-right.png"
     },
     {
       "@type": "schema:Number",
-      "@id": "experimentLength",
+      "schema:name": "experimentLength",
       "schema:value": 4
     }
   ]
