@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+  ],
+  "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+  "@id": "flanker_practice",
+  "skos:prefLabel": "Flanker Practice",
+  "skos:altLabel": "flanker_practice",
+  "schema:description": "Flanker practice",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "ui": {
+    "inputType": "flanker-task"
+  },
+  "parameters": [
+    {
+      "@type": "schema:url",
+      "@id": "leftImage",
+      "schema:value": "https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/black/png/48/arrow-left.png"
+    },
+    {
+      "@type": "schema:url",
+      "@id": "leftImageButton",
+      "schema:value": "https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/white/png/48/arrow-left.png"
+    },
+    {
+      "@type": "schema:url",
+      "@id": "rightImage",
+      "schema:value": "https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/black/png/48/arrow-right.png"
+    },
+    {
+      "@type": "schema:url",
+      "@id": "rightImageButton",
+      "schema:value": "https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/white/png/48/arrow-right.png"
+    },
+    {
+      "@type": "schema:Number",
+      "@id": "experimentLength",
+      "schema:value": 4
+    }
+  ]
+}
