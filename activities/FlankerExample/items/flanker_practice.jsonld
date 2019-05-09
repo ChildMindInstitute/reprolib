@@ -12,7 +12,7 @@
   "ui": {
     "inputType": "flanker-task"
   },
-  "parameters": [
+  "inputs": [
     {
       "@type": "schema:url",
       "@id": "leftImage",
