@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
-        "https://raw.githubusercontent.com/stufreen/schema-standardization/master/activity-sets/cognitive-tasks/cognitive-tasks_context.jsonld"
+        "https://raw.githubusercontent.com/shnizzedy/schema-standardization/stu/activity-sets/cognitive-tasks/cognitive-tasks_context.jsonld"
     ],
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/ActivitySet.jsonld",
     "@id": "cognitive-tasks_schema",
@@ -10,7 +10,7 @@
     "schema:description": "Participate in a variety of cognitive tasks.",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "schema:image": "https://raw.githubusercontent.com/stufreen/schema-standardization/master/activity-sets/cognitive-tasks/cognitive-tasks_image.jpg?sanitize=true",
+    "schema:image": "https://raw.githubusercontent.com/shnizzedy/schema-standardization/stu/activity-sets/cognitive-tasks/cognitive-tasks_image.jpg?sanitize=true",
     "ui": {
         "order": [
             "flanker_schema"

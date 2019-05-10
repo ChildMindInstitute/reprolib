@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
-    "https://raw.githubusercontent.com/stufreen/schema-standardization/master/activities/FlankerExample/FlankerExample_context.jsonld"
+    "https://raw.githubusercontent.com/shnizzedy/schema-standardization/stu/activities/FlankerExample/FlankerExample_context.jsonld"
   ],
   "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity.jsonld",
   "@id": "FlankerExample_schema",
