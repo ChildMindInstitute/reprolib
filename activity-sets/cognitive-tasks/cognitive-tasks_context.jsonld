@@ -1,12 +1,8 @@
 {
     "@context": {
-        "activity_path": "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/activities/",
+        "activity_path": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/",
         "flanker_schema": {
             "@id": "activity_path:FlankerExample/FlankerExample_schema.jsonld",
-            "@type": "@id"
-        },
-        "MindLoggerDemo_schema": {
-            "@id": "activity_path:MindLoggerDemo/MindLoggerDemo_schema.jsonld",
             "@type": "@id"
         }
     }
