@@ -29,6 +29,14 @@
     "time-range": {
       "@id": "MindLoggerDemo:items/time-range.jsonld",
       "@type": "@id"
+    },
+    "vsr-instructions": {
+      "@id": "MindLoggerDemo:items/vsr-instructions.jsonld",
+      "@type": "@id"
+    },
+    "visual-stimulus-response": {
+      "@id": "MindLoggerDemo:items/visual-stimulus-response.jsonld",
+      "@type": "@id"
     }
   }
 }
