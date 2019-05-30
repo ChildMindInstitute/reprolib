@@ -41,6 +41,14 @@
     {
       "variableName": "time-range",
       "isAbout": "time-range"
+    },
+    {
+      "variableName": "vsr-instructions",
+      "isAbout": "vsr-instructions"
+    },
+    {
+      "variableName": "visual-stimulus-response",
+      "isAbout": "visual-stimulus-response"
     }
   ],
   "ui": {
@@ -51,7 +59,9 @@
       "slider",
       "text",
       "date",
-      "time-range"
+      "time-range",
+      "vsr-instructions",
+      "visual-stimulus-response"
     ],
     "visibility": {
       "markdown-message": true,
@@ -60,7 +70,9 @@
       "slider": true,
       "text": true,
       "date": true,
-      "time-range": true
+      "time-range": true,
+      "vsr-instructions": true,
+      "visual-stimulus-response": true
     },
     "allow": [
       "skipped",
