@@ -1,9 +1,9 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/NDA/nda_context.jsonld"
+        "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/contexts/generic.jsonld",
+        "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/activities/NDA/nda_context.jsonld"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "@type": "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/schemas/Field.jsonld",
     "@id": "birthYear",
     "skos:prefLabel": "year of birth",
     "skos:altLabel": "birthYear",

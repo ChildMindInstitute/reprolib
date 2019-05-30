@@ -1,8 +1,8 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/EmaHBNMorning/ema_morning_context.jsonld"
+    "@context": [ "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/contexts/generic.jsonld",
+        "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/activities/EmaHBNMorning/ema_morning_context.jsonld"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "@type": "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/schemas/Field.jsonld",
     "@id": "time_in_bed",
     "skos:prefLabel": "Time in bed",
     "skos:altLabel": "time_in_bed",

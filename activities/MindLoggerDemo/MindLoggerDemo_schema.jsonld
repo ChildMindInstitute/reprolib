@@ -51,7 +51,8 @@
       "text": true
     },
     "allow": [
-      "skipped"
+      "skipped",
+      "dontKnow"
     ]
   }
 }
