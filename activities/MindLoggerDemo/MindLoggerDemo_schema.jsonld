@@ -51,6 +51,10 @@
       "isAbout": "audio-record"
     },
     {
+      "variableName": "drawing",
+      "isAbout": "drawing"
+    },
+    {
       "variableName": "vsr-instructions",
       "isAbout": "vsr-instructions"
     },
@@ -70,6 +74,7 @@
       "time-range",
       "audio-stimulus",
       "audio-record",
+      "drawing",
       "vsr-instructions",
       "visual-stimulus-response"
     ],
@@ -83,6 +88,7 @@
       "time-range": true,
       "audio-stimulus": true,
       "audio-record": true,
+      "drawing": true,
       "vsr-instructions": true,
       "visual-stimulus-response": true
     },
