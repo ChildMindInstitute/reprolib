@@ -1,13 +1,13 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
-    "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/FlankerExample/FlankerExample_context.jsonld"
+    "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/contexts/generic.jsonld",
+    "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/activities/MindLoggerDemo/MindLoggerDemo_context.jsonld"
   ],
-  "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity.jsonld",
-  "@id": "FlankerExample_schema",
-  "skos:prefLabel": "Flanker Example",
+  "@type": "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/schemas/Activity.jsonld",
+  "@id": "MindLoggerDemo_schema",
+  "skos:prefLabel": "MindLogger Widget Demo",
   "skos:altLabel": "FlankerExample",
-  "schema:description": "This activity is a demo of the Flanker cognitive task.",
+  "schema:description": "This activity contains one of each type of widget supported by the MindLogger mobile app.",
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "preamble": "Please follow the instructions for the task.",
@@ -15,34 +15,16 @@
   "scoringLogic": {},
   "variableMap": [
     {
-      "variableName": "practice_instructions",
-      "isAbout": "practice_instructions"
-    },
-    {
-      "variableName": "flanker_practice",
-      "isAbout": "flanker_practice"
-    },
-    {
-      "variableName": "test_instructions",
-      "isAbout": "test_instructions"
-    },
-    {
-      "variableName": "flanker_test",
-      "isAbout": "flanker_test"
+      "variableName": "markdown-message",
+      "isAbout": "markdown-message"
     }
   ],
   "ui": {
     "order": [
-      "practice_instructions",
-      "flanker_practice",
-      "test_instructions",
-      "flanker_test"
+      "markdown-message"
     ],
     "visibility": {
-      "practice_instructions": true,
-      "flanker_practice": true,
-      "test_instructions": true,
-      "flanker_test": true
+      "markdown-message": true
     }
   }
 }
