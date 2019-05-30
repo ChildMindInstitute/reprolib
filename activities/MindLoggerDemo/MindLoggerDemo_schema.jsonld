@@ -49,6 +49,9 @@
       "radio-multi": true,
       "slider": true,
       "text": true
-    }
+    },
+    "allow": [
+      "skipped"
+    ]
   }
 }
