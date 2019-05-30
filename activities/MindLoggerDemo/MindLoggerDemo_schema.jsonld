@@ -33,6 +33,14 @@
     {
       "variableName": "text",
       "isAbout": "text"
+    },
+    {
+      "variableName": "date",
+      "isAbout": "date"
+    },
+    {
+      "variableName": "time-range",
+      "isAbout": "time-range"
     }
   ],
   "ui": {
@@ -41,14 +49,18 @@
       "radio",
       "radio-multi",
       "slider",
-      "text"
+      "text",
+      "date",
+      "time-range"
     ],
     "visibility": {
       "markdown-message": true,
       "radio": true,
       "radio-multi": true,
       "slider": true,
-      "text": true
+      "text": true,
+      "date": true,
+      "time-range": true
     },
     "allow": [
       "skipped",

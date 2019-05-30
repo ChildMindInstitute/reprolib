@@ -21,6 +21,14 @@
     "text": {
       "@id": "MindLoggerDemo:items/text.jsonld",
       "@type": "@id"
+    },
+    "date": {
+      "@id": "MindLoggerDemo:items/date.jsonld",
+      "@type": "@id"
+    },
+    "time-range": {
+      "@id": "MindLoggerDemo:items/time-range.jsonld",
+      "@type": "@id"
     }
   }
 }
