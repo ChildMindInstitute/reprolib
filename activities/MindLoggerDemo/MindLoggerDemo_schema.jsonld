@@ -79,6 +79,7 @@
       "audio-stimulus",
       "audio-record",
       "drawing",
+      "drawing-image",
       "vsr-instructions",
       "visual-stimulus-response"
     ],
@@ -93,6 +94,7 @@
       "audio-stimulus": true,
       "audio-record": true,
       "drawing": true,
+      "drawing-image": true,
       "vsr-instructions": true,
       "visual-stimulus-response": true
     },
