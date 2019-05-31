@@ -19,8 +19,8 @@
     {
       "@type": "schema:AudioObject",
       "schema:name": "stimulus",
-      "schema:contentUrl": "https://raw.githubusercontent.com/stufreen/schema-standardization/master/activities/RAVLT/items/ravlt-a.mp3",
-      "schema:transcript": "Drum, Curtain, Bell, Coffee, School, Parent, Moon, Garden, Hat, Farmer, Nose, Turkey, Color, House, River."
+      "schema:contentUrl": "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/activities/MindLoggerDemo/items/GoalLoading-rising.mp3",
+      "schema:transcript": "Rising notes"
     },
     {
       "@type": "schema:Boolean",
