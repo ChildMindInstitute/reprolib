@@ -55,6 +55,10 @@
       "isAbout": "drawing"
     },
     {
+      "variableName": "drawing-image",
+      "isAbout": "drawing-image"
+    },
+    {
       "variableName": "vsr-instructions",
       "isAbout": "vsr-instructions"
     },
