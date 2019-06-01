@@ -60,7 +60,7 @@
           "@type": "@id"
         },
         "tired_energetic": {
-          "@id": "ema:tired_energetic.jsonld",
+          "@id": "ema:energy.jsonld",
           "@type": "@id"
         }
     }
