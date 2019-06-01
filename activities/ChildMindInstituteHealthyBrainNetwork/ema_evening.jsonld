@@ -45,7 +45,6 @@
     "repronim:timeUnit": "yearmonthdate",
     "ui": {
         "order": [
-            "tired_energetic",
             "enjoyed_day",
             "good_bad_day",
             "stressful_day",
