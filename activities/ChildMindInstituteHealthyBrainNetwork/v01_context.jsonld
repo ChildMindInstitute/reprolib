@@ -2,21 +2,66 @@
     "@context": {
         "@version": 1.1,
         "ux": "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/UX/items/",
+        "ema": "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/items/",
+        "clarity_of_content": {
+            "@id": "ux:clarity_of_content.jsonld",
+            "@type": "@id"
+        },
         "ease_of_use": {
             "@id": "ux:ease_of_use.jsonld",
             "@type": "@id"
         },
-        "clarity_of_content": {
-            "@id": "ux:clarity_of_content.jsonld",
+        "enjoyed_day": {
+          "@id": "ema:enjoyed_day",
+          "@type": "@id"
+        },
+        "functionality": {
+            "@id": "ux:functionality.jsonld",
             "@type": "@id"
+        },
+        "good_bad_day": {
+          "@id": "ema:good_bad_day",
+          "@type": "@id"
+        },
+        "go_to_bed": {
+          "@id": "ema:go_to_bed",
+          "@type": "@id"
+        },
+        "health": {
+          "@id": "ema:health",
+          "@type": "@id"
+        },
+        "medications": {
+          "@id": "ema:medications",
+          "@type": "@id"
+        },
+        "nightmares": {
+          "@id": "ema:nightmares",
+          "@type": "@id"
+        },
+        "one_event": {
+          "@id": "ema:one_event",
+          "@type": "@id"
         },
         "relevance": {
             "@id": "ux:relevance.jsonld",
             "@type": "@id"
         },
-        "functionality": {
-            "@id": "ux:functionality.jsonld",
-            "@type": "@id"
-        }
+        "sleeping_aids": {
+          "@id": "ema:sleeping_aids",
+          "@type": "@id"
+        },
+        "sources_of_stress": {
+          "@id": "ema:sources_of_stress",
+          "@type": "@id"
+        },
+        "stressful_day": {
+          "@id": "ema:stressful_day",
+          "@type": "@id"
+        },
+        "tired_energetic": {
+          "@id": "ema:tired_energetic",
+          "@type": "@id"
+        },
     }
 }

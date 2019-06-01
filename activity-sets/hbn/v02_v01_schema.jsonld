@@ -15,6 +15,7 @@
         "order": [
             "ema_morning",
             "ema_evening",
+            "medications",
             "basic_feedback"
         ],
         "shuffle": false

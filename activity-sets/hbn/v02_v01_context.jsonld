@@ -8,6 +8,10 @@
         "ema_evening": {
             "@id": "activity_path:ChildMindInstituteHealthyBrainNetwork/ema_evening.jsonld",
             "@type": "@id"
+        },
+        "medications": {
+            "@id": "activity_path:ChildMindInstituteHealthyBrainNetwork/medications.jsonld",
+            "@type": "@id"
         }
     }
 }
