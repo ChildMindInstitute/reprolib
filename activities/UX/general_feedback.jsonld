@@ -22,9 +22,10 @@
         ],
         "shuffle": false,
         "visibility": {
-            "time_in_bed": true,
-            "nightmares": true,
-            "sleeping_aids": true
+            "ease_of_use": true,
+            "clarity_of_content": true,
+            "relevance": true,
+            "functionality": true
         }
     }
 }
