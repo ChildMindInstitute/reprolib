@@ -10,8 +10,38 @@
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "preamble": "",
-    "scoringLogic": {
-    },
+    "scoringLogic": {},
+    "branchLogic": {},
+    "variableMap": [
+      {
+        "variableName": "health",
+        "isAbout": "health"
+      },
+      {
+        "variableName": "one_event",
+        "isAbout": "one_event"
+      },
+      {
+        "variableName": "sources_of_stress",
+        "isAbout": "sources_of_stress"
+      },
+      {
+        "variableName": "stressful_day",
+        "isAbout": "stressful_day"
+      },
+      {
+        "variableName": "good_bad_day",
+        "isAbout": "good_bad_day"
+      },
+      {
+        "variableName": "enjoyed_day",
+        "isAbout": "enjoyed_day"
+      },
+      {
+        "variableName": "tired_energetic",
+        "isAbout": "tired_energetic"
+      }
+    ],
     "repronim:timeUnit": "yearmonthdate",
     "ui": {
         "order": [
