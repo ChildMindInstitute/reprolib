@@ -5,7 +5,7 @@
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity.jsonld",
     "@id": "ema_evening_v01",
     "skos:prefLabel": "Evening",
-    "skos:altLabel": "ema_evening",
+    "skos:altLabel": "ema_evenning",
     "schema:description": "Ecological Momentary Assesment",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",

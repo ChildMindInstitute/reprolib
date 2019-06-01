@@ -31,7 +31,7 @@
               }
           },
           {
-              "schema:value": {"@id": "https://schema.repronim.org/dont_know_answer"},
+              "schema:value": "Do Not Know",
               "schema:name": {
                   "en": "Do Not Know"
               }
