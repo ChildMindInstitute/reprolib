@@ -17,12 +17,6 @@
             "medications",
             "basic_feedback"
         ],
-        "shuffle": false,
-        "visibility": {
-            "ema_morning": true,
-            "ema_evening": true,
-            "medications": true,
-            "basic_feedback": true
-        }
+        "shuffle": false
     }
 }
