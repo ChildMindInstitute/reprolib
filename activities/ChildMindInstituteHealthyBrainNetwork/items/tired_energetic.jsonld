@@ -15,52 +15,30 @@
         "inputType": "slider"
     },
     "responseOptions": {
-      "@type": "xsd:integer",
-      "requiredValue": false,
-      "multipleChoice": false,
-      "choices": [
-          {
-              "schema:value": 0,
-              "schema:name": {
-                  "en": "Not at all sleepy"
-              }
-          },
-          {
-              "schema:value": 1,
-              "schema:name": {
-                  "en": ""
-              }
-          },
-          {
-              "schema:value": 2,
-              "schema:name": {
-                  "en": ""
-              }
-          },
-          {
-              "schema:value": 3,
-              "schema:name": {
-                  "en": ""
-              }
-          },
-          {
-              "schema:value": 4,
-              "schema:name": {
-                  "en": ""
-              }
-          },
-          {
-              "schema:value": 5,
-              "schema:name": {
-                  "en": ""
-              }
-          },
-          {
-              "schema:value": 6,
-              "schema:name": {
-                  "en": "Very sleepy"
-              }
-          }
-      ]
+        "@type": "xsd:integer",
+        "schema:minValue": "Very sleepy",
+        "schema:maxValue": "Not at all sleepy",
+        "requiredValue": false,
+        "choices": [{
+            "schema:name": "",
+            "schema:value": 0
+        },
+        {
+            "schema:name": "",
+            "schema:value": 1
+        },
+        {
+            "schema:name": "",
+            "schema:value": 2
+        },
+        {
+            "schema:name": "",
+            "schema:value": 3
+        },
+        {
+            "schema:name": "",
+            "schema:value": 4
+        }
+        ]
     }
 }
