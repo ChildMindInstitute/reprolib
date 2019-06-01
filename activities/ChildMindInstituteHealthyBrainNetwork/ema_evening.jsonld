@@ -3,9 +3,9 @@
         "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/v01_context.jsonld"
     ],
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity.jsonld",
-    "@id": "ema_morning_v01",
-    "skos:prefLabel": "Morning",
-    "skos:altLabel": "ema_morning",
+    "@id": "ema_evening_v01",
+    "skos:prefLabel": "Evening",
+    "skos:altLabel": "ema_evenning",
     "schema:description": "Ecological Momentary Assesment",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
@@ -15,15 +15,23 @@
     "repronim:timeUnit": "yearmonthdate",
     "ui": {
         "order": [
-            "go_to_bed",
-            "nightmares",
-            "sleeping_aids"
+            "tired_energetic",
+            "enjoyed_day",
+            "good_bad_day",
+            "stressful_day",
+            "sources_of_stress",
+            "one_event",
+            "health"
         ],
         "shuffle": false,
         "visibility": {
-            "go_to_bed": true,
-            "nightmares": true,
-            "sleeping_aids": true
+            "stressful_day": true,
+            "sources_of_stress": "stressful_day",
+            "good_bad_day": true,
+            "enjoyed_day": true,
+            "tired_energetic": true,
+            "health": true,
+            "one_event": true
         }
     }
 }

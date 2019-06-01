@@ -15,6 +15,7 @@
         "inputType": "radio"
     },
     "responseOptions": {
+      "requiredValue": false,
       "multipleChoice": false,
       "choices": [
           {

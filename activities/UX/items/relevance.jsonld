@@ -15,6 +15,7 @@
     },
     "responseOptions": {
       "multipleChoice": false,
+      "requiredValue": false,
       "choices": [
           {
               "schema:value": 2,
