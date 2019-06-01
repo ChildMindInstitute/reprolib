@@ -1,7 +1,7 @@
 {
     "@context": [
       "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
-      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstitute/v01_context.jsonld"
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/v01_context.jsonld"
     ],
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
     "@id": "stressful_day",
