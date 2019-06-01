@@ -7,7 +7,7 @@
     "skos:prefLabel": "MindLogger for Healthy Brain Network",
     "skos:altLabel": "hbn_v02_v01",
     "schema:image": "https://api.mindlogger.info/api/v1/item/5bd8aac6336da80de9145d30/download?contentDisposition=inline",
-    "schema:description": "Healthy Brain Network MindLogger v0.2 activity set v0.1",
+    "schema:description": "Daily assessments",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "ui": {
@@ -18,12 +18,6 @@
             "basic_feedback"
         ],
         "shuffle": false,
-        "activity_display_name": {
-            "ema_morning":  "Morning",
-            "ema_evening":  "Evening",
-            "medications": "Medications",
-            "basic_feedback": "Feedback (User Experience)"
-        },
         "visibility": {
             "ema_morning": true,
             "ema_evening": true,

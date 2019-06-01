@@ -13,6 +13,26 @@
     "scoringLogic": {
     },
     "repronim:timeUnit": "yearmonthdate",
+    "branchLogic": {},
+    "scoringLogic": {},
+    "variableMap": [
+      {
+      "variableName": "ease_of_use",
+      "isAbout": "ease_of_use"
+      },
+      {
+      "variableName": "clarity_of_content",
+      "isAbout": "clarity_of_content"
+      },
+      {
+      "variableName": "relevance",
+      "isAbout": "relevance"
+      },
+      {
+      "variableName": "functionality",
+      "isAbout": "functionality"
+      },
+    ],
     "ui": {
         "order": [
             "ease_of_use",
