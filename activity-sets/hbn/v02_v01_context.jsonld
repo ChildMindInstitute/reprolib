@@ -1,6 +1,10 @@
 {
     "@context": {
         "activity_path": "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/",
+        "basic_feedback":{
+            "@id": "activity_path:UX/general_feedback.jsonld",
+            "@type": "@id"
+        },
         "ema_morning": {
             "@id": "activity_path:ChildMindInstituteHealthyBrainNetwork/ema_morning.jsonld",
             "@type": "@id"
