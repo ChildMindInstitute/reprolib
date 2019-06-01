@@ -27,5 +27,9 @@
         "visibility": {
             "medications": true
         }
-    }
+    },
+    "allow": [
+      "skipped",
+      "dontKnow"
+    ]
 }

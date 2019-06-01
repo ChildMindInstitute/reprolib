@@ -39,5 +39,9 @@
             "nightmares": true,
             "sleeping_aids": true
         }
-    }
+    },
+    "allow": [
+      "skipped",
+      "dontKnow"
+    ]
 }
