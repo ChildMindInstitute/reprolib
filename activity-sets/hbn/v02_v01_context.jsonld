@@ -1,6 +1,6 @@
 {
     "@context": {
-        "activity_path": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/",
+        "activity_path": "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/",
         "ema_morning": {
             "@id": "activity_path:ChildMindInstituteHealthyBrainNetwork/ema_morning.jsonld",
             "@type": "@id"
