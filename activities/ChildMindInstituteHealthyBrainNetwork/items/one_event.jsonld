@@ -1,0 +1,86 @@
+{
+    "@context": [
+      "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstitute/v01_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "@id": "one_event",
+    "skos:prefLabel": "The ONE event that may have affected your child the most today",
+    "skos:altLabel": "one_event",
+    "schema:description": "Which of the following categories best describes the area of your child's life in which the event occurred?",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "preamble": "Please think of the ONE event that may have affected your child the most today (positively or negatively), no matter how slightly.",
+    "question": "Which of the following categories best describes the area of your child's life in which the event occurred?",
+    "ui": {
+      "inputType": "radio"
+    },
+    "responseOptions": {
+      "requiredValue": false,
+      "multipleChoice": true,
+      "choices": [
+          {
+              "schema:value": 0,
+              "schema:name": {
+                  "en": "School"
+              }
+          },
+          {
+              "schema:value": 1,
+              "schema:name": {
+                  "en": "After school program or job"
+              }
+          },
+          {
+              "schema:value": 2,
+              "schema:name": {
+                  "en": "Family or friend relationships"
+              }
+          },
+          {
+              "schema:value": 3,
+              "schema:name": {
+                  "en": "Interactions with classmates"
+              }
+          },
+          {
+              "schema:value": 4,
+              "schema:name": {
+                  "en": "Interactions with strangers"
+              }
+          },
+          {
+              "schema:value": 5,
+              "schema:name": {
+                  "en": "Event at home"
+              }
+          },
+          {
+              "schema:value": 6,
+              "schema:name": {
+                  "en": "Exercise or sport"
+              }
+          },
+          {
+              "schema:value": 7,
+              "schema:name": {
+                  "en": "Health"
+              }
+          },
+          {
+              "schema:value": 8,
+              "schema:name": {
+                  "en": "Traveling or commuting"
+              }
+          },
+          {
+              "schema:value": 9,
+              "schema:name": {
+                  "en": "other:"
+              },
+              "inputType": "text"
+          }
+      ],
+      "type": "Nominal"
+    }
+}

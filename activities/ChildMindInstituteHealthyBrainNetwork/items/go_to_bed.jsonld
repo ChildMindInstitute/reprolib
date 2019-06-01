@@ -15,6 +15,7 @@
         "inputType": "timeRange"
     },
     "responseOptions": {
+      "requiredValue": false,
       "type": "timeRange"
     }
 }

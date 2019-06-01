@@ -4,13 +4,13 @@
       "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstitute/v01_context.jsonld"
     ],
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
-    "@id": "nightmares",
-    "skos:prefLabel": "Nightmares",
-    "skos:altLabel": "nightmares",
-    "schema:description": "Did your child have any nightmares or night terrors last night?",
+    "@id": "health",
+    "skos:prefLabel": "Health",
+    "skos:altLabel": "health",
+    "schema:description": "Was your child in good health today?",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did your child have any nightmares or night terrors last night?",
+    "question": "Was your child in good health today?",
     "ui": {
         "inputType": "radio"
     },
