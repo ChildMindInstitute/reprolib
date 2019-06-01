@@ -76,9 +76,8 @@
           {
               "schema:value": 9,
               "schema:name": {
-                  "en": "other:"
-              },
-              "inputType": "text"
+                  "en": "other"
+              }
           }
       ],
       "type": "Nominal"
