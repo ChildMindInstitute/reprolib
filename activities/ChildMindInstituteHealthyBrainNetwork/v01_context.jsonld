@@ -62,6 +62,6 @@
         "tired_energetic": {
           "@id": "ema:tired_energetic.jsonld",
           "@type": "@id"
-        },
+        }
     }
 }
