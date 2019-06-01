@@ -1,0 +1,106 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/contexts/generic.jsonld",
+    "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/activities/MindLoggerDemo/MindLoggerDemo_context.jsonld"
+  ],
+  "@type": "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/schemas/Activity.jsonld",
+  "@id": "MindLoggerDemo_schema",
+  "skos:prefLabel": "MindLogger Widget Demo",
+  "skos:altLabel": "MindLogger Widget Demo",
+  "schema:description": "This activity contains one of each type of widget supported by the MindLogger mobile app.",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "Please follow the instructions for the task.",
+  "branchLogic": {},
+  "scoringLogic": {},
+  "variableMap": [
+    {
+      "variableName": "markdown-message",
+      "isAbout": "markdown-message"
+    },
+    {
+      "variableName": "radio",
+      "isAbout": "radio"
+    },
+    {
+      "variableName": "radio-multi",
+      "isAbout": "radio-multi"
+    },
+    {
+      "variableName": "slider",
+      "isAbout": "slider"
+    },
+    {
+      "variableName": "text",
+      "isAbout": "text"
+    },
+    {
+      "variableName": "date",
+      "isAbout": "date"
+    },
+    {
+      "variableName": "time-range",
+      "isAbout": "time-range"
+    },
+    {
+      "variableName": "audio-stimulus",
+      "isAbout": "audio-stimulus"
+    },
+    {
+      "variableName": "audio-record",
+      "isAbout": "audio-record"
+    },
+    {
+      "variableName": "drawing",
+      "isAbout": "drawing"
+    },
+    {
+      "variableName": "drawing-image",
+      "isAbout": "drawing-image"
+    },
+    {
+      "variableName": "vsr-instructions",
+      "isAbout": "vsr-instructions"
+    },
+    {
+      "variableName": "visual-stimulus-response",
+      "isAbout": "visual-stimulus-response"
+    }
+  ],
+  "ui": {
+    "order": [
+      "markdown-message",
+      "radio",
+      "radio-multi",
+      "slider",
+      "text",
+      "date",
+      "time-range",
+      "audio-stimulus",
+      "audio-record",
+      "drawing",
+      "drawing-image",
+      "vsr-instructions",
+      "visual-stimulus-response"
+    ],
+    "visibility": {
+      "markdown-message": true,
+      "radio": true,
+      "radio-multi": true,
+      "slider": true,
+      "text": true,
+      "date": true,
+      "time-range": true,
+      "audio-stimulus": true,
+      "audio-record": true,
+      "drawing": true,
+      "drawing-image": true,
+      "vsr-instructions": true,
+      "visual-stimulus-response": true
+    },
+    "allow": [
+      "skipped",
+      "dontKnow"
+    ]
+  }
+}
