@@ -12,7 +12,7 @@
             "@type": "@id"
         },
         "enjoyed_day": {
-          "@id": "ema:enjoyed_day",
+          "@id": "ema:enjoyed_day.jsonld",
           "@type": "@id"
         },
         "functionality": {
@@ -20,27 +20,27 @@
             "@type": "@id"
         },
         "good_bad_day": {
-          "@id": "ema:good_bad_day",
+          "@id": "ema:good_bad_day.jsonld",
           "@type": "@id"
         },
         "go_to_bed": {
-          "@id": "ema:go_to_bed",
+          "@id": "ema:go_to_bed.jsonld",
           "@type": "@id"
         },
         "health": {
-          "@id": "ema:health",
+          "@id": "ema:health.jsonld",
           "@type": "@id"
         },
         "medications": {
-          "@id": "ema:medications",
+          "@id": "ema:medications.jsonld",
           "@type": "@id"
         },
         "nightmares": {
-          "@id": "ema:nightmares",
+          "@id": "ema:nightmares.jsonld",
           "@type": "@id"
         },
         "one_event": {
-          "@id": "ema:one_event",
+          "@id": "ema:one_event.jsonld",
           "@type": "@id"
         },
         "relevance": {
@@ -48,19 +48,19 @@
             "@type": "@id"
         },
         "sleeping_aids": {
-          "@id": "ema:sleeping_aids",
+          "@id": "ema:sleeping_aids.jsonld",
           "@type": "@id"
         },
         "sources_of_stress": {
-          "@id": "ema:sources_of_stress",
+          "@id": "ema:sources_of_stress.jsonld",
           "@type": "@id"
         },
         "stressful_day": {
-          "@id": "ema:stressful_day",
+          "@id": "ema:stressful_day.jsonld",
           "@type": "@id"
         },
         "tired_energetic": {
-          "@id": "ema:tired_energetic",
+          "@id": "ema:tired_energetic.jsonld",
           "@type": "@id"
         },
     }
