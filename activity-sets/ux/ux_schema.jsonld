@@ -15,9 +15,5 @@
             "general_feedback"
         ],
         "shuffle": false
-    },
-    "allow": [
-      "skipped",
-      "dontKnow"
-    ]
+    }
 }

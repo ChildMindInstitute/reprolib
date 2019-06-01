@@ -46,5 +46,9 @@
             "relevance": true,
             "functionality": true
         }
-    }
+    },
+    "allow": [
+      "skipped",
+      "dontKnow"
+    ]
 }
