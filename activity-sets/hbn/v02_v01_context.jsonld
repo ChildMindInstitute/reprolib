@@ -10,7 +10,7 @@
             "@type": "@id"
         },
         "ema_evening": {
-            "@id": "activity_path:ChildMindInstituteHealthyBrainNetwork/ema_evening.jsonld",
+            "@id": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/EmaHBNEvening/ema_evening_schema.jsonld",
             "@type": "@id"
         },
         "medications": {
