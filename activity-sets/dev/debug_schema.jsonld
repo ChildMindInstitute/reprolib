@@ -1,0 +1,19 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/debug/contexts/generic.jsonld",
+        "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/debug/activity-sets/dev/debug_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/ActivitySet.jsonld",
+    "@id": "mindlogger_debugging_schema",
+    "skos:prefLabel": "Debug MindLogger",
+    "skos:altLabel": "debug",
+    "schema:image": "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/activity-sets/mindlogger-demo/mindlogger-logo.png",
+    "schema:description": "What is wrong with these contents?",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "order": [
+            "ema_evening"
+        ],
+        "shuffle": false
+    }
+}

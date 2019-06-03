@@ -1,0 +1,9 @@
+{
+    "@context": {
+        "activity_path": "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/debug/activities/",
+        "ema_evening": {
+            "@id": "activity_path:ChildMindInstituteHealthyBrainNetwork/ema_evening.jsonld",
+            "@type": "@id"
+        }
+    }
+}
