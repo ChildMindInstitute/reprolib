@@ -17,11 +17,13 @@
     "responseOptions": {
       "requiredValue": false,
       "multipleChoice": false,
+      "schema:minValue": "No pleasure or enjoyment",
+      "schema:maxValue": "Really enjoying things",
       "choices": [
           {
               "schema:value": 0,
               "schema:name": {
-                  "en": "No pleasure or enjoyment"
+                  "en": ""
               }
           },
           {
@@ -57,7 +59,7 @@
           {
               "schema:value": 6,
               "schema:name": {
-                  "en": "Really enjoying things"
+                  "en": ""
               }
           }
       ],
