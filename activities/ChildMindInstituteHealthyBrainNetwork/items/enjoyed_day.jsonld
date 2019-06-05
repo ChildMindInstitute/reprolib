@@ -25,19 +25,34 @@
               }
           },
           {
-              "schema:value": 1
+              "schema:value": 1,
+              "schema:name": {
+                  "en": ""
+              }
           },
           {
-              "schema:value": 2
+              "schema:value": 2,
+              "schema:name": {
+                  "en": ""
+              }
           },
           {
-              "schema:value": 3
+              "schema:value": 3,
+              "schema:name": {
+                  "en": ""
+              }
           },
           {
-              "schema:value": 4
+              "schema:value": 4,
+              "schema:name": {
+                  "en": ""
+              }
           },
           {
-              "schema:value": 5
+              "schema:value": 5,
+              "schema:name": {
+                  "en": ""
+              }
           },
           {
               "schema:value": 6,
