@@ -6,7 +6,7 @@
     "@id": "hbn_ema_v01_schema",
     "skos:prefLabel": "MindLogger for Healthy Brain Network",
     "skos:altLabel": "hbn_v02_v01",
-    "schema:image": "https://api.mindlogger.info/api/v1/item/5bd8aac6336da80de9145d30/download?contentDisposition=inline",
+    "schema:image": "https://api.mindlogger.org/api/v1/item/5bd8aac6336da80de9145d30/download?contentDisposition=inline",
     "schema:description": "Daily assessments",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",

@@ -7,7 +7,7 @@
     "skos:prefLabel": "MindLogger User Experience Applet",
     "skos:altLabel": "UX",
     "schema:description": "Feedback applet for MindLogger",
-    "schema:image": "https://mindlogger.info/assets/img/ML-logo.svg",
+    "schema:image": "https://mindlogger.org/assets/img/ML-logo.svg",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "ui": {
