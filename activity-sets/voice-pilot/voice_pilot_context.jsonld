@@ -2,6 +2,10 @@
     "@context": {
         "@version": 1.1,
         "activity_path": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/",
+        "voice_consent_schema": {
+            "@id": "activity_path:ConsentVoiceStudy/voice_consent_schema.jsonld",
+            "@type": "@id"
+        },
         "demographics_schema": {
             "@id": "activity_path:VoiceDemographics/demographics_schema.jsonld",
             "@type": "@id"
@@ -32,6 +36,10 @@
         },
         "other_questions_schema": {
             "@id": "activity_path:MiscellaneousQuestions/other_questions_schema.jsonld",
+            "@type": "@id"
+        },
+        "thankyou_schema": {
+            "@id": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/ThankYou/thankyou_schema.jsonld",
             "@type": "@id"
         }
     }

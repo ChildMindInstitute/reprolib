@@ -1,9 +1,9 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/contexts/generic.jsonld",
-    "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/activities/MindLoggerDemo/MindLoggerDemo_context.jsonld"
+    "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
+    "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/MindLoggerDemo/MindLoggerDemo_context.jsonld"
   ],
-  "@type": "https://raw.githubusercontent.com/stufreen/schema-standardization/widget-demo-activity/schemas/Activity.jsonld",
+  "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity.jsonld",
   "@id": "MindLoggerDemo_schema",
   "skos:prefLabel": "MindLogger Widget Demo",
   "skos:altLabel": "MindLogger Widget Demo",
@@ -43,12 +43,24 @@
       "isAbout": "time-range"
     },
     {
+      "variableName": "table-counter",
+      "isAbout": "table-counter"
+    },
+    {
+      "variableName": "table-text",
+      "isAbout": "table-text"
+    },
+    {
       "variableName": "audio-stimulus",
       "isAbout": "audio-stimulus"
     },
     {
       "variableName": "audio-record",
       "isAbout": "audio-record"
+    },
+    {
+      "variableName": "audio-image-record",
+      "isAbout": "audio-image-record"
     },
     {
       "variableName": "drawing",
@@ -59,12 +71,36 @@
       "isAbout": "drawing-image"
     },
     {
+      "variableName": "photo",
+      "isAbout": "photo"
+    },
+    {
+      "variableName": "video",
+      "isAbout": "video"
+    },
+    {
       "variableName": "vsr-instructions",
       "isAbout": "vsr-instructions"
     },
     {
       "variableName": "visual-stimulus-response",
       "isAbout": "visual-stimulus-response"
+    },
+    {
+      "variableName": "delay",
+      "isAbout": "delay"
+    },
+    {
+      "variableName": "timer",
+      "isAbout": "timer"
+    },
+    {
+      "variableName": "geolocation",
+      "isAbout": "geolocation"
+    },
+    {
+      "variableName": "upload",
+      "isAbout": "upload"
     }
   ],
   "ui": {
@@ -76,12 +112,21 @@
       "text",
       "date",
       "time-range",
+      "table-counter",
+      "table-text",
       "audio-stimulus",
       "audio-record",
+      "audio-image-record",
       "drawing",
       "drawing-image",
+      "photo",
+      "video",
+      "geolocation",
       "vsr-instructions",
-      "visual-stimulus-response"
+      "visual-stimulus-response",
+      "delay",
+      "timer",
+      "upload"
     ],
     "visibility": {
       "markdown-message": true,
@@ -91,12 +136,21 @@
       "text": true,
       "date": true,
       "time-range": true,
+      "table-counter": true,
+      "table-text": true,
       "audio-stimulus": true,
       "audio-record": true,
+      "audio-image-record": true,
       "drawing": true,
       "drawing-image": true,
+      "photo": true,
+      "video": true,
       "vsr-instructions": true,
-      "visual-stimulus-response": true
+      "visual-stimulus-response": true,
+      "delay": true,
+      "timer": true,
+      "geolocation": true,
+      "upload": true
     },
     "allow": [
       "skipped",

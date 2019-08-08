@@ -10,8 +10,6 @@
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "preamble": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
-    "branchLogic": {
-    },
     "scoringLogic": {
     },
     "variableMap": [
@@ -46,10 +44,9 @@
             "rainbow_passage": true,
             "multipart_voice": true,
             "feedback_question": true,
-            "feedback_yes": "feedback_question == 1",
-            "feedback_brief": "feedback_question == 1 && feedback_yes !== 7"
-        },
-        "allow": ["skipped", "dontKnow"]
+            "feedback_yes": "feedback_question === 1",
+            "feedback_brief": "feedback_question === 1 && feedback_yes !== 7"
+        }
     }
 }
 
