@@ -1,0 +1,35 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
+        "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/UX/ux_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "@id": "Functionality",
+    "skos:prefLabel": "Functionality",
+    "skos:altLabel": "Functionality",
+    "schema:description": "How often did you have problems using the app?",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": "How often did you have problems using the app?",
+    "ui": {
+        "inputType": "slider"
+    },
+    "responseOptions": {
+      "type": "xsd:integer",
+      "schema:minValue": "Rarely",
+      "schema:maxValue": "Often",
+      "requiredValue": false,
+      "choices": [{
+          "schema:name": "Rarely",
+          "schema:value": 0
+      },
+          {
+              "schema:name": "Sometimes",
+              "schema:value": 1
+          },
+          {
+              "schema:name": "Often",
+              "schema:value": 2
+          }
+      ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/contexts/generic.jsonld",
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/v01_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "@id": "tired_energetic",
+    "skos:prefLabel": "Tired/Energetic",
+    "skos:altLabel": "tired_energetic",
+    "schema:description": "How tired versus energetic did your child seem today?",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": "How tired versus energetic did your child seem today?",
+    "ui": {
+        "inputType": "slider"
+    },
+    "responseOptions": {
+        "@type": "xsd:integer",
+        "schema:minValue": "Very sleepy",
+        "schema:maxValue": "Not at all sleepy",
+        "requiredValue": false,
+        "choices": [{
+            "schema:name": "",
+            "schema:value": 0
+        },
+        {
+            "schema:name": "",
+            "schema:value": 1
+        },
+        {
+            "schema:name": "",
+            "schema:value": 2
+        },
+        {
+            "schema:name": "",
+            "schema:value": 3
+        },
+        {
+            "schema:name": "",
+            "schema:value": 4
+        }
+        ]
+    }
+}

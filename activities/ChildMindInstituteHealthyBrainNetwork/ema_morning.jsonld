@@ -1,0 +1,47 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
+        "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/v01_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity.jsonld",
+    "@id": "ema_morning_v01",
+    "skos:prefLabel": "Morning",
+    "skos:altLabel": "ema_morning",
+    "schema:description": "Ecological Momentary Assesment",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "preamble": "",
+    "scoringLogic": {},
+    "branchLogic": {},
+    "variableMap": [
+      {
+        "variableName": "sleeping_aids",
+        "isAbout": "sleeping_aids"
+      },
+      {
+        "variableName": "nightmares",
+        "isAbout": "nightmares"
+      },
+      {
+        "variableName": "go_to_bed",
+        "isAbout": "go_to_bed"
+      }
+    ],
+    "repronim:timeUnit": "yearmonthdate",
+    "ui": {
+        "order": [
+            "go_to_bed",
+            "nightmares",
+            "sleeping_aids"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "go_to_bed": true,
+            "nightmares": true,
+            "sleeping_aids": true
+        }
+    },
+    "allow": [
+      "skipped",
+      "dontKnow"
+    ]
+}

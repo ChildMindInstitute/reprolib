@@ -1,0 +1,42 @@
+{
+    "@context": [
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/contexts/generic.jsonld",
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/v01_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "@id": "health",
+    "skos:prefLabel": "Health",
+    "skos:altLabel": "health",
+    "schema:description": "Was your child in good health today?",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": "Was your child in good health today?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+      "requiredValue": false,
+      "multipleChoice": false,
+      "choices": [
+          {
+              "schema:value": 0,
+              "schema:name": {
+                  "en": "No"
+              }
+          },
+          {
+              "schema:value": 1,
+              "schema:name": {
+                  "en": "Yes"
+              }
+          },
+          {
+              "schema:value": "Do Not Know",
+              "schema:name": {
+                  "en": "Do Not Know"
+              }
+          }
+      ],
+      "type": "Nominal"
+    }
+}

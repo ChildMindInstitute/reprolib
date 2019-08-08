@@ -1,0 +1,40 @@
+{
+    "@context": [
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/contexts/generic.jsonld",
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/v01_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "@id": "stressful_day",
+    "skos:prefLabel": "Do you think your child had a stressful day today?",
+    "skos:altLabel": "stressful_day",
+    "schema:description": "Do you think your child had a stressful day today?",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": "Do you think your child had a stressful day today?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "@type": "xsd:anyURI",
+        "multipleChoice": false,
+        "schema:minValue": 0,
+        "schema:maxValue": 1,
+        "choices": [{
+            "@type": "schema:Boolean",
+            "schema:name": "No",
+            "schema:value": 0
+        },
+        {
+            "@type": "schema:Boolean",
+            "schema:name": "Yes",
+            "schema:value": 1
+        },
+        {
+            "@type": "schema:Literal",
+            "schema:name": "Do Not Know",
+            "schema:value": "Do Not Know"
+        }
+      ],
+      "type": "Nominal"
+    }
+}

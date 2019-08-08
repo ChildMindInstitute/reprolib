@@ -1,0 +1,17 @@
+{
+    "@context": [
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/contexts/generic.jsonld",
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/v01_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "@id": "medications",
+    "skos:prefLabel": "Daily Medications",
+    "skos:altLabel": "medications",
+    "schema:description": "What daily medications does your child take?",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": "What daily medications does your child take (include name and dosage)?",
+    "ui": {
+        "inputType": "text"
+    }
+}

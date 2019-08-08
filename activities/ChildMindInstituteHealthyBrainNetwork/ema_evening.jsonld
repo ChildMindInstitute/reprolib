@@ -1,0 +1,70 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
+        "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/v01_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity.jsonld",
+    "@id": "ema_evening_v01",
+    "skos:prefLabel": "Evening",
+    "skos:altLabel": "ema_evenning",
+    "schema:description": "Ecological Momentary Assesment",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "preamble": "",
+    "scoringLogic": {},
+    "branchLogic": {},
+    "variableMap": [
+      {
+        "variableName": "health",
+        "isAbout": "health"
+      },
+      {
+        "variableName": "one_event",
+        "isAbout": "one_event"
+      },
+      {
+        "variableName": "sources_of_stress",
+        "isAbout": "sources_of_stress"
+      },
+      {
+        "variableName": "stressful_day",
+        "isAbout": "stressful_day"
+      },
+      {
+        "variableName": "good_bad_day",
+        "isAbout": "good_bad_day"
+      },
+      {
+        "variableName": "enjoyed_day",
+        "isAbout": "enjoyed_day"
+      },
+      {
+        "variableName": "tired_energetic",
+        "isAbout": "tired_energetic"
+      }
+    ],
+    "repronim:timeUnit": "yearmonthdate",
+    "ui": {
+        "order": [
+            "enjoyed_day",
+            "good_bad_day",
+            "stressful_day",
+            "sources_of_stress",
+            "one_event",
+            "health"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "stressful_day": true,
+            "sources_of_stress": "stressful_day",
+            "good_bad_day": true,
+            "enjoyed_day": true,
+            "tired_energetic": true,
+            "health": true,
+            "one_event": true
+        }
+    },
+    "allow": [
+      "skipped",
+      "dontKnow"
+    ]
+}

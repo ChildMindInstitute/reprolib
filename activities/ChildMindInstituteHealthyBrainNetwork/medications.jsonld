@@ -1,0 +1,35 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
+        "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/v01_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity.jsonld",
+    "@id": "ema_medications_v01",
+    "skos:prefLabel": "Medications",
+    "skos:altLabel": "medications",
+    "schema:description": "Ecological Momentary Assesment",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "preamble": "",
+    "scoringLogic": {},
+    "branchLogic": {},
+    "variableMap": [
+      {
+        "variableName": "medications",
+        "isAbout": "medications"
+      }
+    ],
+    "repronim:timeUnit": "yearmonthdate",
+    "ui": {
+        "order": [
+            "medications"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "medications": true
+        }
+    },
+    "allow": [
+      "skipped",
+      "dontKnow"
+    ]
+}

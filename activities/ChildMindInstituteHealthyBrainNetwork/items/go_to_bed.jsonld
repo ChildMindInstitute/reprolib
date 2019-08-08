@@ -1,0 +1,21 @@
+{
+    "@context": [
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/contexts/generic.jsonld",
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/v01_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "@id": "time_in_bed",
+    "skos:prefLabel": "Time in Bed",
+    "skos:altLabel": "time_in_bed",
+    "schema:description": "About how long was your child in bed?",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": "About what time did your child go to bed last night?\nAbout what time did your child wake up?",
+    "ui": {
+        "inputType": "timeRange"
+    },
+    "responseOptions": {
+      "requiredValue": false,
+      "type": "timeRange"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "@context": [
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/contexts/generic.jsonld",
+      "https://raw.githubusercontent.com/ChildMindInstitute/schema-standardization/master/activities/ChildMindInstituteHealthyBrainNetwork/v01_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "@id": "sources_of_stress",
+    "skos:prefLabel": "Source(s) of stress",
+    "skos:altLabel": "sources_of_stress",
+    "schema:description": "Choose the source(s) of your child's stress today",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": "Choose the source(s) of your child's stress today:",
+    "ui": {
+      "inputType": "radio"
+    },
+    "responseOptions": {
+      "requiredValue": false,
+      "multipleChoice": true,
+      "choices": [
+          {
+              "schema:value": 0,
+              "schema:name": {
+                  "en": "didn't feel well"
+              }
+          },
+          {
+              "schema:value": 1,
+              "schema:name": {
+                  "en": "classroom learning"
+              }
+          },
+          {
+              "schema:value": 2,
+              "schema:name": {
+                  "en": "a test or quiz at school"
+              }
+          },
+          {
+              "schema:value": 3,
+              "schema:name": {
+                  "en": "bullying"
+              }
+          },
+          {
+              "schema:value": 4,
+              "schema:name": {
+                  "en": "an issue with a friend"
+              }
+          },
+          {
+              "schema:value": 5,
+              "schema:name": {
+                  "en": "online relationships"
+              }
+          },
+          {
+              "schema:value": 6,
+              "schema:name": {
+                  "en": "an issue with a family member"
+              }
+          },
+          {
+              "schema:value": 7,
+              "schema:name": {
+                  "en": "interaction with a stranger"
+              }
+          },
+          {
+              "schema:value": 8,
+              "schema:name": {
+                  "en": "death of a loved one"
+              }
+          },
+          {
+              "schema:value": 9,
+              "schema:name": {
+                  "en": "other"
+              }
+          }
+      ],
+      "type": "Nominal"
+    }
+}
