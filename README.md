@@ -9,12 +9,13 @@ This documentation describes and explains the ReproNim schema specification.
 - [3.0: Advantages of current representation](#30-advantages-of-current-representation)
 - [4.0: Schema](#40-schema)
 - [5.0: Contribute - how to create activity, activity-sets?](#50-how-can-i-create-a-new-activity-and-activity-set)
-- [6.0: Why linked data?]()
-- [7.0: How these activities are licensed?]()
-- [8.0: Which tools will/are supporting this standard?]()
+- [6.0: Test the schema](#60-view-schema-and-collect-data)
+- [7.0: Why linked data?]()
+- [8.0: How these activities are licensed?]()
+- [9.0: Which tools will/are supporting this standard?]()
 
 ## 1.0: Introduction
-Creating NIMH Data Archive (NDA) forms using Brainverse turned out to be immensely time consuming for the average user, as a lot of details for data collection were missing in the current NDA schemas, which are primarily intended for data ingestion. We have been working with our collaborators, the Adolescent Brain Cognitive Development Study (ABCD) Study, the Canadian Open Neuroscience Platform (CONP) and the [MindLogger](https://mindlogger.org) team, to create a set of reusable schemas for common assessments across projects. We are building the assessment standard by extending and modifying the Center for Expanded Data Annotation and Retrieval (CEDAR) metadata representation. CEDAR uses JSON-LD to represent their templates, which we are continuing to use. For instruments and assessments, we are adding the ability to specify scoring logic and branching logic, but also clarifying how graph nodes are linked across JSON-LD documents. This will be one of the richest repositories of form-based assessment information publicly available.
+Cognitive and clinical assessments are used throughout neuroscience, but little consistency exists in assessment data acquisition or response representation across studies. Harmonizing data after acquisition is resource intensive. Currently, the NIMH Data Archive (NDA) enforces harmonization during data submission. This approach can create a mismatch between collected and submitted data. Reverse engineering NDA data dictionaries to their original assessments using a tool like Brainverse can be tedious. To enforce consistency at the data acquisition stage, we created a standard schema and a set of reusable common assessments. The schema extends and modifies the CEDAR metadata representation. Using JSON-LD, we represent Items (elements of individual assessments) or Scores, Activities (individual assessments), and Activity sets (collections of activities performed by a participant). An implementation of the schema  can specify scoring logic, branching logic, and user interface rendering options. The schema allows internationalization (multiple languages), is implementation agnostic, and tracks variations in assessments (e.g., PHQ-9, PHQ-8). This open and accessible schema library with appropriate conversion (e.g., to RedCap) and data collection tools (e.g., [MindLogger](https://mindlogger.info/), LORIS, RedCap) enables more consistent acquisition across projects, with results being harmonized by design.
 
 ## 2.0: Need for Standardizing assessments
 - Cognitive and Clinical assessments are used throughout neuroimaging to perform deep phenotyping
@@ -46,22 +47,45 @@ Creating NIMH Data Archive (NDA) forms using Brainverse turned out to be immense
 
 ## 4.0: Schema
 We have defined 3 different types of schema –
-- [ActivitySet](https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/ActivitySet.jsonld)
-- [Activity](https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity.jsonld)
-- [Item](https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld)
+- [ActivitySet](https://raw.githubusercontent.com/ReproNim/reproschema/master/schemas/ActivitySet)
+- [Activity](https://raw.githubusercontent.com/ReproNim/reproschema/master/schemas/Activity)
+- [Item](https://raw.githubusercontent.com/ReproNim/reproschema/master/schemas/Field)
+
+Schema overall structure:
+
+- activity-set directory structure: name the directory in the CamelCase naming convention. It contains the following:
+  - activity_set_name_schema : schema to define the activity-set
+  - activity_name_context : context to define keys used specific to the activity-set schema
+- activity directory structure: name the directory with name of activity in the CamelCase naming convention. It contains the following:
+  - items (directory) : contains the individual items/questions in the activity schema
+    - item_1
+    - ...
+  - activity_name_schema : schema to define the activity
+  - activity_name_context : context to define keys used specific to the activity schema
+  - sub-activity jsonld schemas (if any)
+
+The generic keys are defined in the generic context file (contexts/generic)
+
 
 ## 5.0: How can I create a new activity and activity-set
-- Fork the project
+
+### 5.1: Programmatic schema generation: 
+- Tool to convert redcap CSVs to our schema format. But it cannot be used to convert every redcap-formatted table as some are customized redcap tables (for example the 100s that are in ABCD) but does cover most cases. A template of the CSV and how to use the tool can be found [here](https://github.com/sanuann/reproschema-builder)
+- Python package to generate JSON-LDs in our schema format. [repo](https://github.com/akeshavan/mindlogger-build-applet)
+
+### 5.2: Manual schema generation: 
+Fork the project and manually create the jsonld files according to the above directory structure. this process will be tedious for large questionnaires.
+
 - To create an activity:
   - Under the [`activities`](./activities) directory, create directory with name of activity in the CamelCase naming convention.
   - activity directory structure:
     - `items` (directory) : contains the individual items/questions in the activity schema
-      - `Item_1.jsonld`
+      - `Item_1`
       - …
-    - `activityName_schema.jsonld` : schema to define the activity
-    - `activityName_context.jsonld` : context to define keys used specific to the activity schema
+    - `activityName_schema` : schema to define the activity
+    - `activityName_context` : context to define keys used specific to the activity schema
 
-  - Creating `activityName_schema.jsonld` – use the keys defined in [`schema/Activity.jsonld`](./schema/Activity.json). If any other keys are used, then define them in `activityName_context.jsonld`
+  - Creating `activityName_schema` – use the keys defined in [`schemas/Activity`](./schemas/Activity). If any other keys are used, then define them in `activityName_context`
 
   - Description of some other keys:
     - `@context` - Array. Include the ReproNim generic context JSON-LD file along with the activity context.
@@ -70,25 +94,25 @@ We have defined 3 different types of schema –
       ```json
       {
         "@context": [
-          "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
-          "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/PHQ-9/phq9_context.jsonld"
+          "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+          "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/PHQ-9/phq9_context"
         ]
       }
       ```
-    - `@type`=`"https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity.jsonld"`
+    - `@type`=`"https://raw.githubusercontent.com/ReproNim/reproschema/master/schemas/Activity"`
 
-  - To create `item_x.jsonld` in the items folder:
-    - Use keys defined in [`schema/Field.jsonld`](./schema/Field.jsonld)
-    - `@type`=`"https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld"`
+  - To create `item_x` in the items folder:
+    - Use keys defined in [`schemas/Field`](./schemas/Field)
+    - `@type`=`"https://raw.githubusercontent.com/ReproNim/reproschema/master/schemas/Field"`
     - `responseOptions` – can be embedded or can point to a remote JSON-LD object.
 
 - To create an activity-set:
   - Under the [`activity-sets`](./activity-sets) directory, create directory with name of activity-set in the CamelCase naming convention.
   - activity-set directory structure:
-    - `activitySetName_schema.jsonld` : schema to define the activity-set
-    - `activitySetName_context.jsonld` : context to define keys used specific to the activity-set schema
+    - `activitySetName_schema` : schema to define the activity-set
+    - `activitySetName_context` : context to define keys used specific to the activity-set schema
 
-  - Creating `activitySetName_schema.jsonld` – use the keys defined in [`schema/ActivitySet.jsonld`](./schema/ActivitySet.jsonld). If any other keys are used, then define them in `activitySetName_context.jsonld`
+  - Creating `activitySetName_schema` – use the keys defined in [`schemas/ActivitySet`](./schemas/ActivitySet). If any other keys are used, then define them in `activitySetName_context`
 
   - Description of some other keys:
     - `@context` – Array. Include the ReproNim generic context JSON-LD file along with the activity-set context.
@@ -97,15 +121,19 @@ We have defined 3 different types of schema –
       ```json
       {
         "@context": [
-          "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
-          "https://raw.githubusercontent.com/sanuann/schema-standardization/master/activity-sets/example/nda-phq_context.jsonld"
+          "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+          "https://raw.githubusercontent.com/sanuann/reproschema/master/activity-sets/example/nda-phq_context"
         ]
       }
       ```
-    - `@type`=`"https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/ActivitySet.jsonld"`
+    - `@type`=`"https://raw.githubusercontent.com/ReproNim/reproschema/master/schemas/ActivitySet"`
 
-## 6.0: Why linked data?
+## 6.0: View schema and collect data
 
-## 7.0: How these activities are licensed?
+`http://schema.repronimg.org/ui/#/?url=path_to_activity_set_schema`
 
-## 8.0: Which tools will/are supporting this standard?
+## 7.0: Why linked data?
+
+## 8.0: How these activities are licensed?
+
+## 9.0: Which tools will/are supporting this standard?
