@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic.jsonld"
     ],
     "type": "xsd:string",
     "multipleChoice": false,
@@ -11,6 +11,6 @@
     {
         "schema:name": "No",
         "schema:value": "no"
-    }
+    },
     ]
 }

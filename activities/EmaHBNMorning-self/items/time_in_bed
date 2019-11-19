@@ -1,0 +1,19 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/reproschema/master/activities/EmaHBNMorning-self/ema_morning_context"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "time_in_bed",
+    "skos:prefLabel": "Time in bed",
+    "skos:altLabel": "time_in_bed",
+    "schema:description": "time spent in bed",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": "Mark the hours that you were in bed",
+    "ui": {
+        "inputType": "timeRange"
+    },
+    "responseOptions": {
+        "type": "timeRange"
+    }
+}
