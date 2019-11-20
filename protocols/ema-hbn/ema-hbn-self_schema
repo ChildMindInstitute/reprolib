@@ -12,22 +12,22 @@
     "schema:about": "https://raw.githubusercontent.com/ChildMindInstitute/reproschema/master/protocols/ema-hbn/self/README.md",
     "schema:image": "https://childmindinstitute.github.io/mindlogger-assets/illustrations/undraw/hbn_ema_image.svg",
     "variableMap": [
-        {"variableName": "ema_morning", "isAbout": "ema_morning_self"},
-        {"variableName": "ema_evening", "isAbout": "ema_evening_self"}
+        {"variableName": "ema_morning_self", "isAbout": "ema_morning_self"},
+        {"variableName": "ema_evening_self", "isAbout": "ema_evening_self"}
     ],
     "ui": {
         "order": [
-            "ema_morning",
-            "ema_evening"
+            "ema_morning_self",
+            "ema_evening_self"
         ],
         "shuffle": false,
         "activity_display_name": {
-            "ema_morning":  "Morning",
-            "ema_evening":  "Evening"
+            "ema_morning_self":  "Morning",
+            "ema_evening_self":  "Evening"
         },
         "visibility": {
-            "ema_morning": true,
-            "ema_evening": true
+            "ema_morning_self": true,
+            "ema_evening_self": true
         }
     }
 }
