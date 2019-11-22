@@ -1,6 +1,6 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/EmaHBNEvening/ema_evening_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/reproschema/master/activities/EmaHBNEvening/ema_evening_context"
     ],
     "@type": "reproschema:Field",
     "@id": "enjoyed_day",
