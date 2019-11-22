@@ -1,12 +1,12 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/EmaHBNEvening/ema_evening_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/reproschema/master/activities/EmaHBNEvening/ema_evening_context"
     ],
     "@type": "reproschema:Field",
     "@id": "stressful_day",
     "skos:prefLabel": "Stress",
     "skos:altLabel": "stressful_day",
-    "schema:description": "whether or not your child took sleeping aids to fall asleep last night",
+    "schema:description": "whether or not your child had a stressful day",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "question": "Do you think your child had a stressful day today?",

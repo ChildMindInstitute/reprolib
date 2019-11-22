@@ -1,6 +1,6 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/EmaHBNEvening/ema_evening_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/reproschema/master/activities/EmaHBNEvening/ema_evening_context"
     ],
     "@type": "reproschema:Field",
     "@id": "energy",
@@ -9,7 +9,7 @@
     "schema:description": "how energetic your child was today",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "How tired vs energetic did you child seem today?",
+    "question": "How tired vs energetic did your child seem today?",
     "ui": {
         "inputType": "slider"
     },
