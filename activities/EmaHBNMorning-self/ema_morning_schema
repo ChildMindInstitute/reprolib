@@ -4,7 +4,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "ema_morning_schema",
-    "skos:prefLabel": "EMA: Morning",
+    "skos:prefLabel": "Morning",
     "skos:altLabel": "ema_morning_schema",
     "schema:description": "Morning Questions",
     "schema:schemaVersion": "0.0.1",
