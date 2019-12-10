@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "base": "https://raw.githubusercontent.com/ChildMindInstitute/reproschema/master/activities/EmaHBNEvening-self/items/",
+        "base": "https://raw.githubusercontent.com/ChildMindInstitute/reproschema/testing/activities/EmaHBNEvening-self/items/",
         "sources_of_stress": {
             "@id": "base:sources_of_stress",
             "@type": "@id"

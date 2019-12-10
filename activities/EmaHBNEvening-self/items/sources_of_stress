@@ -1,6 +1,6 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ChildMindInstitute/reproschema/master/activities/EmaHBNEvening-self/ema_evening_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/reproschema/testing/activities/EmaHBNEvening-self/ema_evening_context"
     ],
     "@type": "reproschema:Field",
     "@id": "sources_of_stress",

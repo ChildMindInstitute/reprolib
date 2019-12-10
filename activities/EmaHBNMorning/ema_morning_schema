@@ -1,6 +1,6 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ChildMindInstitute/reproschema/master/activities/EmaHBNMorning/ema_morning_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/reproschema/testing/activities/EmaHBNMorning/ema_morning_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "ema_morning_schema",
