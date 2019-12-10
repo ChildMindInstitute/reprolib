@@ -6,10 +6,10 @@
     "@id": "energy",
     "skos:prefLabel": "Energy level",
     "skos:altLabel": "energy",
-    "schema:description": "how energetic your child was today",
+    "schema:description": "how energetic you were today",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "How tired vs energetic did you child seem today?",
+    "question": "How tired vs energetic did you seem today?",
     "ui": {
         "inputType": "slider"
     },

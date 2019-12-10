@@ -6,7 +6,7 @@
     "@id": "good_bad_day",
     "skos:prefLabel": "Good or Bad day",
     "skos:altLabel": "good_bad_day",
-    "schema:description": "did you child have a good or bad day",
+    "schema:description": "did your child have a good or bad day",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "question": "Did your child have a good day or bad day today?",
